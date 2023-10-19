@@ -1,5 +1,5 @@
 import {init} from "./index";
-import {describe, expect, it, jest} from "@jest/globals";
+import {describe, expect, it, jest} from "@jest/globals"; // If you remove this line it works then
 
 jest.mock("./foo/baz");
 
